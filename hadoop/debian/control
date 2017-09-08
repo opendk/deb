@@ -6,11 +6,11 @@ Build-Depends: debhelper (>=9)
 Standards-Version: 3.9.6
 Homepage: <insert the upstream URL, if relevant>
 #Vcs-Git: git://git@github.com:opendk/deb.git
-#Vcs-Browser: https://github.com/opendk/deb/tree/master/h2-server
+#Vcs-Browser: https://github.com/opendk/deb/tree/master/derby-server
 
 Package: derby-server
-Architecture: all
-Depends: ${misc:Depends}
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Derby Server
  A Derby network server supporting connections ovet TCP
  A systemd service is also installed

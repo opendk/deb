@@ -9,8 +9,8 @@ Homepage: <insert the upstream URL, if relevant>
 #Vcs-Browser: https://github.com/opendk/deb/tree/master/h2-server
 
 Package: h2-server
-Architecture: all
-Depends: ${misc:Depends}
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: H2 Server
  A H2 network server supporting connections ovet TCP
  A systemd service is also installed

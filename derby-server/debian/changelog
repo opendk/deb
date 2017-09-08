@@ -1,19 +1,19 @@
-hsqldb-server (0.1-4) zesty; urgency=medium
+derby-server (0.1-4) zesty; urgency=medium
 
   * Minor changes (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 
  -- Nicola Marangoni <nicola.marangoni@gmail.com>  Tue, 08 Sep 2017 17:20:55 +0100
 
 
-hsqldb-server (0.1-3) xenial; urgency=medium
+derby-server (0.1-3) xenial; urgency=medium
 
   * Minor changes (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 
  -- Nicola Marangoni <nicola.marangoni@gmail.com>  Tue, 08 Sep 2017 17:20:55 +0100
 
 
-hsqldb-server (0.1-2) xenial; urgency=medium
+derby-server (0.1-1) xenial; urgency=medium
 
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 
- -- Nicola Marangoni <nicola.marangoni@gmail.com>  Tue, 21 Mar 2017 14:26:55 +0100
+ -- Nicola Marangoni <nicola.marangoni@gmail.com>  Tue, 08 Sep 2017 11:37:55 +0100
