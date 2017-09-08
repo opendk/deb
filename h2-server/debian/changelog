@@ -1,0 +1,5 @@
+h2-server (0.1-1) xenial; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Nicola Marangoni <nicola.marangoni@gmail.com>  Tue, 08 Sep 2017 11:37:55 +0100

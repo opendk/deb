@@ -1,10 +1,16 @@
-Package: h2-server
-Version: 0.1-1
-Section: base
+Source: h2-server
+Section: database
 Priority: optional
+Maintainer: Open Data Kraken <opendatakraken@gmail.com>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.6
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://git@github.com:opendk/deb.git
+#Vcs-Browser: https://github.com/opendk/deb/tree/master/h2-server
+
+Package: h2-server
 Architecture: all
-Depends: libh2-java
-Maintainer: Nicola Marangoni <nicola.marangoni@gmail.com>
+Depends: ${misc:Depends}
 Description: H2 Server
  A H2 network server supporting connections ovet TCP
  A systemd service is also installed
