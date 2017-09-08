@@ -1,0 +1,15 @@
+Source: hsqldb-server
+Section: database
+Priority: optional
+Maintainer: Open Data Kraken <opendatakraken@gmail.com>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.6
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://anonscm.debian.org/collab-maint/hsqldb-server-0.1.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/hsqldb-server-0.1.git
+
+Package: hsqldb-server
+Architecture: all
+Depends: ${misc:Depends}
+Description: HSQLDB server
+ HSQLDB server, uses the library hsqldb.jar in the package libhsqldb-java to start a network service

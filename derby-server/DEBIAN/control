@@ -1,0 +1,10 @@
+Package: derby-server
+Version: 0.1-1
+Section: base
+Priority: optional
+Architecture: all
+Depends: libderby-java
+Maintainer: Nicola Marangoni <nicola.marangoni@gmail.com>
+Description: Derby Server
+ A Derby network server supporting connections ovet TCP
+ A systemd service is also installed

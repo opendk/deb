@@ -1,0 +1,11 @@
+# test database
+urlid test
+url jdbc:hsqldb:hsql://localhost/test
+username SA
+password
+
+# demo database
+urlid demo
+url jdbc:hsqldb:hsql://localhost/demo
+username SA
+password

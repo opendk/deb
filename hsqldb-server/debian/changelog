@@ -1,0 +1,5 @@
+hsqldb-server (0.1-2) xenial; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Open Data Kraken <opendatakraken@gmail.com>  Tue, 21 Mar 2017 14:26:55 +0100

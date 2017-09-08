@@ -1,0 +1,11 @@
+[Unit]
+Description=HSQLDB network service
+
+[Service]
+Type=simple
+PIDFile=/var/lib/hsqldb/hsqldb.pid
+ExecStart=/bin/bash -c /var/lib/hsqldb/bin/startup.sh
+ExecStop=/bin/bash -c /var/lib/hsqldb/bin/shutdown.sh
+
+[Install]
+WantedBy=multi-user.target

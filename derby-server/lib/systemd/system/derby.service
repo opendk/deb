@@ -1,0 +1,11 @@
+[Unit]
+Description=Derby network service
+
+[Service]
+Type=simple
+PIDFile=/var/lib/derby/derby.pid
+ExecStart=/bin/bash -c /var/lib/derby/bin/startup.sh
+ExecStop=/bin/bash -c /var/lib/derby/bin/shutdown.sh
+
+[Install]
+WantedBy=multi-user.target
