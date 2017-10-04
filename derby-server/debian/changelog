@@ -1,3 +1,17 @@
+derby-server (0.1-7) zesty; urgency=medium
+
+  * Bug fixing (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Nicola Marangoni <nicola.marangoni@gmail.com>  Wed, 04 Oct 2017 11:15:55 +0100
+
+
+derby-server (0.1-6) zesty; urgency=medium
+
+  * Bug fixing (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Nicola Marangoni <nicola.marangoni@gmail.com>  Tue, 08 Sep 2017 17:20:55 +0100
+
+
 derby-server (0.1-4) zesty; urgency=medium
 
   * Minor changes (Closes: #nnnn)  <nnnn is the bug number of your ITP>

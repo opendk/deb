@@ -10,7 +10,7 @@ Homepage: <insert the upstream URL, if relevant>
 
 Package: derby-server
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Derby Server
  A Derby network server supporting connections ovet TCP
  A systemd service is also installed

@@ -2,6 +2,7 @@
 Description=Derby network service
 
 [Service]
+User=derby
 Type=simple
 PIDFile=/var/lib/derby/derby.pid
 ExecStart=/bin/bash -c /var/lib/derby/bin/startup.sh

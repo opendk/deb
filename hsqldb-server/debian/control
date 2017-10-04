@@ -9,7 +9,7 @@ Homepage: <insert the upstream URL, if relevant>
 #Vcs-Browser: https://github.com/opendk/deb/tree/master/hsqldb-server
 
 Package: hsqldb-server
-Architecture: any
+Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: HSQLDB server
  HSQLDB server, uses the library hsqldb.jar in the package libhsqldb-java to start a network service

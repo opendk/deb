@@ -2,6 +2,7 @@
 Description=HSQLDB network service
 
 [Service]
+User=hsqldb
 Type=simple
 PIDFile=/var/lib/hsqldb/hsqldb.pid
 ExecStart=/bin/bash -c /var/lib/hsqldb/bin/startup.sh

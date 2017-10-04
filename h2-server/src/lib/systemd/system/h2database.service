@@ -2,6 +2,7 @@
 Description=H2 network service
 
 [Service]
+User=h2database
 Type=simple
 PIDFile=/var/lib/h2database/h2database.pid
 ExecStart=/bin/bash -c /var/lib/h2database/bin/startup.sh
