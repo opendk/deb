@@ -10,7 +10,7 @@ Homepage: <insert the upstream URL, if relevant>
 
 Package: h2-server
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, libh2-java (>= 1.4.0)
 Description: H2 Server
  A H2 network server supporting connections ovet TCP
  A systemd service is also installed

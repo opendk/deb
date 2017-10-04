@@ -10,6 +10,6 @@ Homepage: <insert the upstream URL, if relevant>
 
 Package: hsqldb-server
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, libhsqldb-java (>= 2.3.0)
 Description: HSQLDB server
  HSQLDB server, uses the library hsqldb.jar in the package libhsqldb-java to start a network service
