@@ -1,3 +1,10 @@
+hsqldb-server (0.1-9) artful; urgency=medium
+
+  * Bug fixing (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Nicola Marangoni <nicola.marangoni@gmail.com>  Fri, 13 Apr 2018 14:30:00 +0100
+
+
 hsqldb-server (0.1-8) zesty; urgency=medium
 
   * Bug fixing (Closes: #nnnn)  <nnnn is the bug number of your ITP>
